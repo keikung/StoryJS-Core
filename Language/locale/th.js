@@ -1,16 +1,16 @@
-/* English LANGUAGE 
+/* Thai LANGUAGE 
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {
-		lang: "en",
+		lang: "th",
 		api: {
-			wikipedia: "en"
+			wikipedia: "th"
 		},
 		date: {
-			month: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-			month_abbr: ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."],
-			day: ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-			day_abbr: ["Sun.","Mon.", "Tues.", "Wed.", "Thurs.", "Fri.", "Sat."]
+			month: ["มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน", "พฤษภาคม", "มิถุนายน", "กรกฎาคม", "สิงหาคม", "กันยายน", "ตุลาคม", "พฤศจิกายน", "ธันวาคม"],
+			month_abbr: ["ม.ค.", "ก.พ", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค.", "ส.ค.", "ก.ย.", "ต.ค.", "พ.ย.", "ธ.ค."],
+			day: ["อาทิตย์","จันทร์", "อังคาร", "พุธ", "พฤหัสบดี", "ศุกร์", "เสาร์"],
+			day_abbr: ["อา.","จ.", "อ.", "พ.", "พฤ.", "ศ.", "ส."]
 		}, 
 		dateformats: {
 			year: "yyyy",
