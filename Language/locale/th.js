@@ -2,7 +2,7 @@
 ================================================== */
 if(typeof VMM != 'undefined') {
 	VMM.Language = {
-		lang: "en",
+		lang: "th",
 		api: {
 			wikipedia: "en"
 		},
